@@ -21,12 +21,13 @@ public:
 	int Metod1(std::string file1, std::string file2);
 	int Metod2(std::string file1, int n);
 	int CreateBinFile3(std::string file1);
-	int Metod3(std::string file1, std::string file2, int k);
+	int Metod3(std::string file1, int k);
 	int CreateTxtFile4(std::string file1, int n);
 	int Metod4(std::string file1, int b);
 	int CreateTxtFile5(std::string file1, int n);
 	int Metod5(std::string file1, int k);
 	int Metod6(std::string file1, std::string file2);
+
 	//1. Из исходного файла получить новый файл, исключив повторные вхождения чисел. 
 	//2. Скопировать элементы заданного файла в квадратную матрицу размером n×n (если элементов 
 	//файла недостает, заполнить оставшиеся элементы матрицы нулями).Заменить все строки

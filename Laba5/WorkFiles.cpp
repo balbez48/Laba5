@@ -220,22 +220,14 @@ int WorkFiles::Metod2(std::string file1, int n)
 
 }
 
-
-
 //3. Файл содержит сведения об игрушках: название игрушки, ее стоимость в рублях и возрастные 
 //границы(например, игрушка может предназначаться для детей от двух до пяти лет).Получить
 //название игрушек, цена которых не превышает k руб.и которые подходят детям 5 лет.
-int WorkFiles::Metod3(std::string file1, std::string file2, int k)
+int WorkFiles::Metod3(std::string file1, int k)
 {
 	ifstream f1(file1, ios::binary);
-	ofstream f2(file2, ios::trunc);
 
 	if (!f1.is_open()) {
-		cout << "error" << endl;
-		return 1;
-	}
-
-	if (!f2.is_open()) {
 		cout << "error" << endl;
 		return 1;
 	}
@@ -248,7 +240,6 @@ int WorkFiles::Metod3(std::string file1, std::string file2, int k)
 	while (f1.read((char*)&toy, sizeof(Toy))) {
 		if (toy.price <= k && toy.min_age <= 5 && toy.max_age >= 5) {
 			suitable_toys.push_back(toy.name);
-			f2 << toy.name << endl;
 
 			cout << "Найдено: " << toy.name << " - " << toy.price
 				<< " руб., возраст: " << toy.min_age << "-" << toy.max_age << " лет" << endl;
@@ -256,12 +247,8 @@ int WorkFiles::Metod3(std::string file1, std::string file2, int k)
 	}
 
 	f1.close();
-	f2.close();
-
 	return 0;
 }
-
-
 
 //4. Для заданного файла возвратить true, если он содержит заданное число b, и false в противном случае.
 int WorkFiles::Metod4(std::string file1, int b)
@@ -283,7 +270,6 @@ int WorkFiles::Metod4(std::string file1, int b)
 	f1.close();
 	return false;
 }
-
 
 //5. Вычислить сумму элементов, которые кратны заданному числу k.
 int WorkFiles::Metod5(std::string file1, int k)

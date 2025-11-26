@@ -70,7 +70,7 @@ int main() {
           }
           case 3: {
               obj.CreateBinFile3("1.txt");
-              obj.Metod3("1.txt", "2.txt", 1000);
+              obj.Metod3("1.txt", 1000);
             break;
           }
           case 4: {
