@@ -33,6 +33,7 @@
 4. Записать получившееся множество в файл для записи.
 
 ### Тестирование:
+<img width="970" height="125" alt="image" src="https://github.com/user-attachments/assets/3806270b-5f45-4a54-aa13-69c027b7eaee" />
 
 ---
 
@@ -46,7 +47,11 @@
 4. Заполнить матрицу данными из файла.
 5. Вложенными циклами пройтись по текущей матрице и найти строку с максимальным произведением.
 6. В текущей матрице заменить все строки на строку с максимальным произведенем.
+
 ### Тестирование:
+<img width="959" height="410" alt="image" src="https://github.com/user-attachments/assets/32a1ae40-ce83-4aa9-9a5a-3d44b352d22e" />
+
+<img width="957" height="495" alt="image" src="https://github.com/user-attachments/assets/fc627596-49da-4173-aae0-6b7e1d4a6aea" />
 
 ---
 
@@ -57,7 +62,9 @@
 1. Открыть файл для чтения.
 2. Создать вектор и структуру для чтения и записи данных.
 3. Циклом читаем данные из файла, проверяем условия и подходящие сохраняем в вектор.
+
 ### Тестирование:
+<img width="1088" height="637" alt="image" src="https://github.com/user-attachments/assets/b3cc38fa-7b61-4a8d-8080-61d9e5b0cd99" />
 
 ---
 
@@ -68,6 +75,9 @@
 1. Открыть файл для чтения.
 2. Циклом читаем файл и приверяем вхождение числа b.
 ### Тестирование:
+<img width="972" height="152" alt="image" src="https://github.com/user-attachments/assets/1d2b2231-08fb-4937-bc54-7386ad3e1da7" />
+
+<img width="968" height="166" alt="image" src="https://github.com/user-attachments/assets/e8288c7f-6163-4159-bd18-d0f303a6ffca" />
 
 ---
 
@@ -78,7 +88,9 @@
 1. Открыть файл для чтения.
 2. Циклом читаем файл и приверяем делится число на k.
 3. Если да - суммируем
+
 ### Тестирование:
+<img width="795" height="377" alt="image" src="https://github.com/user-attachments/assets/4b21d3da-06c0-48c8-81bc-938cac486d92" />
 
 ---
 
@@ -93,5 +105,6 @@
 5. Иначе записываем в новый файл.
 
 ### Тестирование:
+<img width="1113" height="126" alt="image" src="https://github.com/user-attachments/assets/6e56e11e-a778-4caf-8199-11fd6fb6fbef" />
 
 ---
